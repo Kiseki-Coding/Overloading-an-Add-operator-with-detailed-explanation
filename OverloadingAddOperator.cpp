@@ -3,6 +3,7 @@ Name: kiseki-Coding
 Year: 2023
 Just a code with explanations on overloading an operator
 Notice: This program did not simplify the fraction
+Not sure if you can understand from these explanation sorry :)
 */
 
 #include <iostream>
@@ -54,13 +55,12 @@ int main()
 	cout << "Enter a 2nd denominator: ";
 	cin >> denomi2;
 
-
+	//passing the fraction values through the object
 	Fraction F1(numer, denomi);
 	Fraction F2(numer2, denomi2);
+	//Now you can add both fractions
 	Fraction total = F1 + F2;
+	//displaying the total calling the display function
 	total.display();
-
-
-
 
 }
